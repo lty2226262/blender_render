@@ -3,3 +3,10 @@ assets/
 .vscode/
 results/
 test/
+*.ply
+*.obj
+cache/
+
+
+!assets/d5e474d0cecf4688b488d84819dc8790.glb
+!assets/bezier_curves.json
