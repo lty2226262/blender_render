@@ -1,0 +1,5 @@
+*.tfrecord
+assets/
+.vscode/
+results/
+test/
