@@ -1,5 +1,4 @@
 *.tfrecord
-assets/
 .vscode/
 results/
 test/
@@ -7,6 +6,6 @@ test/
 *.obj
 cache/
 
-
 !assets/d5e474d0cecf4688b488d84819dc8790.glb
 !assets/bezier_curves.json
+assets/
