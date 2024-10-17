@@ -310,9 +310,6 @@ def main():
             print(f"Frame {frame} already rendered. Skipping.")
             continue
 
-        if frame > 3:
-            break
-
         bpy.context.scene.frame_set(frame)
         curve_object.data.eval_time = frame
         curve_object.data.keyframe_insert(data_path='eval_time', frame=frame)
